@@ -8,7 +8,8 @@
   <link href="./assets/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="container">
+  <h2 style="text-align: center;">Task One</h2>
+  <div class="task1-container">
     <div class="button-container">
       <button id="plusFive">+5</button>
       <br />
@@ -25,6 +26,40 @@
       <h2 id="display-heading"></h2>
       <h1 id="number-indicator">0</h1>
     </div>
+    <em style="color: green;"><b> Only 1 small function used!</b></em>
+  </div>
+<h2 style="text-align: center;">Task Two</h2>
+  <div class="coin-game-container">
+    <div class="computer">
+      <h2>Computer</h2>
+      <div class="guess-btns">
+        <strong>Guess:</strong>
+        <button id="guess" data-head>Head</button>
+        <button id="guess" data-tail>Tail</button>
+      </div>
+      <strong>Score: <span id="score">0</span></strong>
+    </div>
+    
+    <div class="coin-imgs" style="display: flex;flex-direction:column;row-gap: 10px;align-items:center;">
+      <button id="toss-coin">Toss Coin</button>
+      <img src="" alt="">
+      <img src="./assets/images/head-side.png" alt="head-side">
+
+      <em style="color: red;"><b> In progress!</b></em>
+      <!-- 
+      <img src="./assets/images/tail-side.png" alt="tail-side"> -->
+
+    </div>
+    <div class="player">
+      <h2>You</h2>
+      <div class="guess-btns">
+        <strong>Guess: </strong>
+        <button id="guess" data-head>Head</button>
+        <button id="guess" data-tail>Tail</button>
+      </div>
+      <strong>Score: <span id="score">0</span></strong>
+    </div>
+    
   </div>
   <script src="./assets/main.js"></script>
 </body>
