@@ -16,3 +16,5 @@ if the value in the button is `+10` it should take the previous value in the `<h
 this is also what should happen if the `+20` button is clicked. The previous value should be taken and 20 added onto it.
 
 **NOTE:** Stick to the function approach because that is what we covered today and it would suite you best if you deeply understood functions.
+
+##Used only one small function for the cuntionality
