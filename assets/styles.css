@@ -38,24 +38,3 @@ background-color: rgb(73, 73, 73);
 cursor: pointer;
 height: max-content;
 }
-
-.coin-game-container {
-background: #fff;
-border: 3px solid green;
-border-radius: 8px;
-padding: 25px;
-display: flex;
-justify-content: space-between;
-}
-.computer, .player {
-display: flex;
-flex-direction: column;
-row-gap: 40px;
-border-right: 2px solid;
-padding-right: 20px;
-}
-.player {
-border-right: none;
-border-left: 2px solid;
-padding-left: 20px;
-}

@@ -16,26 +16,3 @@ const incrementFunc = () => {
 incrementFunc();
 
 // //////
-
-
-// Solution to task 2
-
-const tossCoinBtn = document.querySelector("#toss-coin");
-// const coinHead = document.querySelector("")
-
-let head;
-let tail;
-let coinSide = Math.random();
-
-tossCoinBtn.addEventListener('click', () => {
-  tossCoin();
-})
-
-const tossCoin = () => {
-  if (coinSide > 0.5) {
-    console.log(coinSide);
-    document.querySelector('img').src = "./images/head-side.png";
-    document.querySelector('.coin-imgs').innerHtml = `${document.querySelector('img').src};`
-  }
-}
-
